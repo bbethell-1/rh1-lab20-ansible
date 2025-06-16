@@ -358,13 +358,6 @@
     owner: ec2-user
     group: ec2-user
 
-- name: Copy file with owner and permissions
-  ansible.builtin.copy:
-    src: files/05-lab/shell/FollowStream.sh
-    dest: /home/ec2-user/05-lab/FollowStream.sh
-    owner: ec2-user
-    group: ec2-user
-    mode: '0755'
 
 ######################
 
